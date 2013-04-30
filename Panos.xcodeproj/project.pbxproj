@@ -13,6 +13,7 @@
 		DF65005A172FEA4700DE9D2D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DF650058172FEA4700DE9D2D /* Credits.rtf */; };
 		DF65005D172FEA4700DE9D2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF65005C172FEA4700DE9D2D /* AppDelegate.m */; };
 		DF650060172FEA4700DE9D2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF65005E172FEA4700DE9D2D /* MainMenu.xib */; };
+		DFAD207E172FEC040059E649 /* Loukia.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAD207D172FEC040059E649 /* Loukia.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		DF65005B172FEA4700DE9D2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF65005C172FEA4700DE9D2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DF65005F172FEA4700DE9D2D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DFAD207C172FEC040059E649 /* Loukia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loukia.h; sourceTree = "<group>"; };
+		DFAD207D172FEC040059E649 /* Loukia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loukia.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				DF65005C172FEA4700DE9D2D /* AppDelegate.m */,
 				DF65005E172FEA4700DE9D2D /* MainMenu.xib */,
 				DF650050172FEA4700DE9D2D /* Supporting Files */,
+				DFAD207C172FEC040059E649 /* Loukia.h */,
+				DFAD207D172FEC040059E649 /* Loukia.m */,
 			);
 			path = Panos;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			files = (
 				DF650056172FEA4700DE9D2D /* main.m in Sources */,
 				DF65005D172FEA4700DE9D2D /* AppDelegate.m in Sources */,
+				DFAD207E172FEC040059E649 /* Loukia.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				DF650065172FEA4700DE9D2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
